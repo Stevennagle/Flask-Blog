@@ -20,3 +20,4 @@ Python installation issue :
      //$env:FLASK_APP = "run.py"
      http://127.0.0.1:5000/
      export set FLASK_DEBUG=1
+     python flaskblog.py
