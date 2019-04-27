@@ -15,7 +15,7 @@ Python installation issue :
 	Solution : De-select "Download debugging symbols" or "Download debug binaries"
 
 ----------------------------------------------------------------------
-
+     <CTRL>+`
 	 pip install flask
 	 export set FLASK_APP=flaskblog.py
      //$env:FLASK_APP = "run.py"
