@@ -3,7 +3,7 @@
 Based off of a tutorial by Corey Schafer (15 videos) :
 
 1) https://youtu.be/MwZwr5Tvyxo -- Complete
-2) https://youtu.be/QnDWIZuWYW0 -- 7min
+2) https://youtu.be/QnDWIZuWYW0 --
 
 
 
@@ -22,3 +22,8 @@ Python installation issue :
      http://127.0.0.1:5000/
      export set FLASK_DEBUG=1
      python flaskblog.py
+
+     <CTRL>+<SHIFT>+r : clear the browser cache and reload
+----------------------------------------------------------------------
+
+BootStrap : https://getbootstrap.com/docs/4.3/getting-started/introduction/
