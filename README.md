@@ -3,7 +3,8 @@
 Based off of a tutorial by Corey Schafer (15 videos) :
 
 1) https://youtu.be/MwZwr5Tvyxo -- Complete
-2) https://youtu.be/QnDWIZuWYW0 --
+2) https://youtu.be/QnDWIZuWYW0 -- Complete
+3) https://youtu.be/UIJKdCIEXUQ --
 
 
 
