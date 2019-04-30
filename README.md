@@ -36,9 +36,6 @@ Python installation issue :
 ----------------------------------------------------------------------
 Issues :
 
-1) Registration form is pre-populating with form data name 23:00min Vid 3 but not activating on-click
-
-
 
 ----------------------------------------------------------------------
 
