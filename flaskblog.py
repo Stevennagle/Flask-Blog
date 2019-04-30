@@ -17,7 +17,6 @@ posts = [
         'title': 'Blog Post 1',
         'content': 'First post',
         'date_posted':'April 27, 2019'
-
     }
 ]
 
@@ -38,11 +37,16 @@ def register():
         return redirect(url_for('home'))
     return render_template('register.html', title='Register', form=form)
 
-@app.route("/login")
+@app.route("/login", methods=['GET','POST'])
 def login():
     form =LoginForm()
+    if form.validate_on_submit():
+        if form.email.data == 'tempAdmin@blog.com' and form.password.data == 'tempPassword':
+           flash('You have logged in.','success')
+           return redirect(url_for('home'))
+        else:
+            flash('Login Failed.', 'danger')
     return render_template('login.html', title='Login', form=form)
 
 if __name__ == '__main__':
         app.run(debug=True)
-
