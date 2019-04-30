@@ -4,7 +4,8 @@ Based off of a tutorial by Corey Schafer (15 videos) :
 
 1) https://youtu.be/MwZwr5Tvyxo -- Complete
 2) https://youtu.be/QnDWIZuWYW0 -- Complete
-3) https://youtu.be/UIJKdCIEXUQ -- 23min
+3) https://youtu.be/UIJKdCIEXUQ -- Complete
+4) https://youtu.be/cYWiDiIUxQc --
 
 
 
