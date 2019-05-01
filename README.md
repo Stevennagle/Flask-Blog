@@ -5,7 +5,7 @@ Based off of a tutorial by Corey Schafer (15 videos) :
 1) https://youtu.be/MwZwr5Tvyxo -- Complete
 2) https://youtu.be/QnDWIZuWYW0 -- Complete
 3) https://youtu.be/UIJKdCIEXUQ -- Complete
-4) https://youtu.be/cYWiDiIUxQc --
+4) https://youtu.be/cYWiDiIUxQc -- 9min
 
 
 
@@ -33,6 +33,8 @@ Python installation issue :
      $ python
      >>> import secrets
      >>> secrets.token_hex(16)
+
+     $ pip install flask-sqlalchemy
 
 ----------------------------------------------------------------------
 Issues :
