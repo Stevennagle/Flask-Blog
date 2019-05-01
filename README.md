@@ -5,7 +5,7 @@ Based off of a tutorial by Corey Schafer (15 videos) :
 1) https://youtu.be/MwZwr5Tvyxo -- Complete
 2) https://youtu.be/QnDWIZuWYW0 -- Complete
 3) https://youtu.be/UIJKdCIEXUQ -- Complete
-4) https://youtu.be/cYWiDiIUxQc -- 9min
+4) https://youtu.be/cYWiDiIUxQc -- 22min
 
 
 
@@ -35,6 +35,19 @@ Python installation issue :
      >>> secrets.token_hex(16)
 
      $ pip install flask-sqlalchemy
+
+     python
+     >>> from flaskblog import db
+     >>> db.create_all()
+     >>> from flaskblog import User, Post
+     >>> user_1 = User(username='Steven', email='sa@gmail.com', password='tempPassword')
+     >>> db.session.add(user_1)
+     >>> db.session.commit()
+     >>> User.query.all()
+
+
+
+
 
 ----------------------------------------------------------------------
 Issues :
