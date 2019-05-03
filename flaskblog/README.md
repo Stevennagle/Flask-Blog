@@ -6,8 +6,8 @@ Based off of a tutorial by Corey Schafer (15 videos) :
 2) https://youtu.be/QnDWIZuWYW0 -- Complete
 3) https://youtu.be/UIJKdCIEXUQ -- Complete
 4) https://youtu.be/cYWiDiIUxQc -- Complete
-5) https://youtu.be/44PvX0Yv368 --
-
+5) https://youtu.be/44PvX0Yv368 -- Complete
+6) https://youtu.be/CSHx6eCkmv0
 
 
 ----------------------------------------------------------------------
@@ -44,6 +44,8 @@ Python installation issue :
      >>> from flaskblog import User, Post
 
 
+----------------------------------------------------------------------
+
      DB :
 
      >>> user_1 = User(username='Steven', email='sa@gmail.com', password='tempPassword')
@@ -74,24 +76,22 @@ Python installation issue :
      >>> User.create_all()
      >>> User.query.all()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ----------------------------------------------------------------------
-Issues :
+
+Hashing Passwords :
+
+     $ pip install flask-bcrypt
+     >>>from flask_bcrypt import Bcrypt
+     >>>bcrypt = Bcrypt()
+
+     >>> bcrypt.generate_password_hash('testing')
+     b'$2b$12$gNtuAJE0/E3f2xYrP85MV.K1nGhQNXqekNC3zn.VX/eO0EmLkYram'
+
+     >>> bcrypt.generate_password_hash('testing').decode('utf-8')
+     '$2b$12$rQ7LfXiQbn2uQ8.WpoAtVO/Scuf2h2la20M49G2B8Ft9St7P107AG'
+
+
+
 
 
 ----------------------------------------------------------------------
