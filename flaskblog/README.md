@@ -7,7 +7,7 @@ Based off of a tutorial by Corey Schafer (15 videos) :
      3) https://youtu.be/UIJKdCIEXUQ -- Complete
      4) https://youtu.be/cYWiDiIUxQc -- Complete
      5) https://youtu.be/44PvX0Yv368 -- Complete
-     6) https://youtu.be/CSHx6eCkmv0
+     6) https://youtu.be/CSHx6eCkmv0 -- 19min
 
 
 ----------------------------------------------------------------------
