@@ -2,12 +2,12 @@
 
 Based off of a tutorial by Corey Schafer (15 videos) :
 
-1) https://youtu.be/MwZwr5Tvyxo -- Complete
-2) https://youtu.be/QnDWIZuWYW0 -- Complete
-3) https://youtu.be/UIJKdCIEXUQ -- Complete
-4) https://youtu.be/cYWiDiIUxQc -- Complete
-5) https://youtu.be/44PvX0Yv368 -- Complete
-6) https://youtu.be/CSHx6eCkmv0
+     1) https://youtu.be/MwZwr5Tvyxo -- Complete
+     2) https://youtu.be/QnDWIZuWYW0 -- Complete
+     3) https://youtu.be/UIJKdCIEXUQ -- Complete
+     4) https://youtu.be/cYWiDiIUxQc -- Complete
+     5) https://youtu.be/44PvX0Yv368 -- Complete
+     6) https://youtu.be/CSHx6eCkmv0
 
 
 ----------------------------------------------------------------------
@@ -18,6 +18,9 @@ Python installation issue :
 	Solution : De-select "Download debugging symbols" or "Download debug binaries"
 
 ----------------------------------------------------------------------
+
+CLI
+
      <CTRL>+`
      pip install flask
 
@@ -46,7 +49,7 @@ Python installation issue :
 
 ----------------------------------------------------------------------
 
-     DB :
+DB :
 
      >>> user_1 = User(username='Steven', email='sa@gmail.com', password='tempPassword')
      >>> db.session.add(user_1)
@@ -90,7 +93,8 @@ Hashing Passwords :
      >>> bcrypt.generate_password_hash('testing').decode('utf-8')
      '$2b$12$rQ7LfXiQbn2uQ8.WpoAtVO/Scuf2h2la20M49G2B8Ft9St7P107AG'
 
-
+     >>> bcrypt.check_password_hash()
+     >>> bcrypt.check_password_hash(hashed_pw, 'testing')
 
 
 
@@ -98,10 +102,8 @@ Hashing Passwords :
 
 Dependencies :
 
-
-BootStrap : https://getbootstrap.com/docs/4.3/getting-started/introduction/
-
-Flask : http://flask.pocoo.org/
-
-Flask Forms : https://flask-wtf.readthedocs.io/en/latest/index.html#
-
+     BootStrap : https://getbootstrap.com/docs/4.3/getting-started/introduction/
+     Flask : http://flask.pocoo.org/
+     Flask Forms : https://flask-wtf.readthedocs.io/en/latest/index.html#
+     sqlalchemy
+     flask-bcrypt
