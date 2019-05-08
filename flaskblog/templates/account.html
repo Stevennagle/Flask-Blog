@@ -41,10 +41,19 @@
                 </div>
             </fieldset>
             <div class="form-group">
-                {{ form.submit(class="btn btn-outline-info") }}
+                {{ form.picture.label() }}
+                {{ form.picture(class="form-control-file") }}
+                {% if form.picture.errors %}
+                  {%for error in form.picture.errors %}
+                  <span class="text-danger">{{ error }}</span></br>
+                  {% endfor %}
+                {% endif %}
+            </div>
+
             </div>
         </form>
-
+ <div class="form-group">
+                    {{ form.email.label(class="form-control-label") }}
     </div>
 {% endblock content%}
 
