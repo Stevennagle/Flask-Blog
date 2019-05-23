@@ -13,4 +13,10 @@
           </div>
         </article>
     {% endfor %}
+    {% for page_num in posts.iter_pages() %}
+      {% if page_num %}
+      {% else %}
+      {% endif %}
+    {% endfor %}
+
 {% endblock content%}
