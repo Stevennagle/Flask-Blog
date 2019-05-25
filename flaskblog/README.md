@@ -59,7 +59,10 @@ CLI
 
      $ pip install flask-login
      $ pip install Pillow
-k
+     >>> from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
+
+
+
 
 
 
@@ -125,5 +128,8 @@ Dependencies :
      flask-bcrypt
      flask-login
      Pillow
+     itsdangerous TimedJSONWebSignatureSerializer
+
+
 
 
