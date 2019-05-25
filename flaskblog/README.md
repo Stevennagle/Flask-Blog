@@ -10,9 +10,16 @@ Based off of a tutorial by Corey Schafer (15 videos) :
      6) https://youtu.be/CSHx6eCkmv0 -- Complete
      7) https://youtu.be/803Ei2Sq-Zs -- Complete
      8) https://youtu.be/u0oDDZrDz9U -- Complete
-     9) https://youtu.be/PSWf2TjTGNY -- 29min
+     9) https://youtu.be/PSWf2TjTGNY -- Complete
+     10)https://youtu.be/vutyTx7IaAI --
+----------------------------------------------------------------------
 
 
+Issues, Video 9:
+
+username displays as file location :  e.g.
+
+/user/Steven 2019-05-22
 
 ----------------------------------------------------------------------
 Python installation issue :
