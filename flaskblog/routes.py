@@ -148,12 +148,19 @@ def user_posts(username):
     posts = Post.query.filter_by(author=user).order_by(Post.date_posted.desc()).paginate(page=page, per_page=5)
     return render_template('user_posts.html', posts=posts, user=user)
 
+def send_reset_email(user):
+    pass
 
 @app.route("/reset_password", methods=['GET','POST'])
 def reset_request():
     if current_user.is_authenticated:
         return redirect(url_for('home'))
-    form = RequestResetForm
+    form = RequestResetForm()
+    if form.validate_on_submit():
+        user = User.query.filter_by(email=form.email.data).first()
+        send_reset_email(user)
+        flash('A password-reset email has been sent.')
+        return redirect(url_for('login'))
     return render_template('reset_request.html', title='Reset Password', form=form)
 
 
@@ -161,3 +168,10 @@ def reset_request():
 def reset_token(token):
     if current_user.is_authenticated:
         return redirect(url_for('home'))
+    user = User.verify_reset_token(token)
+    if user is None:
+        flash('Invalid or Expired Token', 'warning')
+        return redirect(url_for('reset_request'))
+    form = RequestPasswordForm()
+    return render_template('reset_token.html', title='Reset Password', form=form)
+
