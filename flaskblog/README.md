@@ -11,7 +11,7 @@ Based off of a tutorial by Corey Schafer (15 videos) :
      7) https://youtu.be/803Ei2Sq-Zs -- Complete
      8) https://youtu.be/u0oDDZrDz9U -- Complete
      9) https://youtu.be/PSWf2TjTGNY -- Complete
-     10)https://youtu.be/vutyTx7IaAI -- 25min
+     10)https://youtu.be/vutyTx7IaAI -- 27min
 ----------------------------------------------------------------------
 
 
@@ -61,6 +61,7 @@ CLI
      $ pip install Pillow
      >>> from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
 
+     $ pip install flask-mail
 
 
 
@@ -129,7 +130,16 @@ Dependencies :
      flask-login
      Pillow
      itsdangerous TimedJSONWebSignatureSerializer
+     $ pip install flask-mail
 
 
+----------------------------------------------------------------------
+
+Email functionality :
+
+  Using env vars to hide sensitive data (vid 10 - 26:45min)
+
+     Environment Variables (Windows): https://youtu.be/IolxqkL7cD8
+     Environment Variables (Mac and Linux): https://youtu.be/5iWhQWVXosU
 
 
