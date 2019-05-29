@@ -4,7 +4,7 @@ import secrets
 from PIL import Image
 from flask import render_template, url_for, flash, redirect, request, abort
 from flaskblog import app, db, bcrypt, mail
-from flaskblog.forms import RegistrationForm, LoginForm, UpdateAccountForm, PostForm, RequestResetForm, RequestPasswordForm
+from flaskblog.forms import RegistrationForm, LoginForm, UpdateAccountForm, PostForm, RequestResetForm, ResetPasswordForm
 from flaskblog.models import User, Post
 from flask_login import login_user, current_user, logout_user, login_required
 from flask_mail import Message
@@ -181,6 +181,12 @@ def reset_token(token):
     if user is None:
         flash('Invalid or Expired Token', 'warning')
         return redirect(url_for('reset_request'))
-    form = RequestPasswordForm()
+    form = ResetPasswordForm()
+    if form.validate_on_submit():
+        hash_password = bcrypt.generate_password_hash(form.password.data).decode('utf-8')
+        user.password = hash_password
+        db.session.commit()
+        flash('Your password has been updated. Please log in.', 'success')
+        return redirect(url_for('login'))
     return render_template('reset_token.html', title='Reset Password', form=form)
 
