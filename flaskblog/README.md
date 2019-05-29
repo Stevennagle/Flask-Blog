@@ -19,7 +19,8 @@ Based off of a tutorial by Corey Schafer (15 videos) :
 Issues, Video 9:
 
 
-1) username displays as file location :  e.g.  /user/Steven 2019-05-22
+1) Username displays as file location :  e.g.  /user/Steven 2019-05-22
+2) Email secure login info needs to be configured.
 
 
 
