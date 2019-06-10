@@ -12,7 +12,7 @@ Based off of a tutorial by Corey Schafer (15 videos) :
      8) https://youtu.be/u0oDDZrDz9U -- Complete
      9) https://youtu.be/PSWf2TjTGNY -- Complete
      10)https://youtu.be/vutyTx7IaAI -- Complete
-     11)https://youtu.be/Wfx4YBzg16s -- 17:00min
+     11)https://youtu.be/Wfx4YBzg16s -- 22min : updating all
 ----------------------------------------------------------------------
 
 
@@ -22,6 +22,13 @@ Issues, Video 9:
 1) Username displays as file location :  e.g.  /user/Steven 2019-05-22
 2) Email secure login info needs to be configured.
 
+
+
+Issues, Video 11; 20:30min:
+
+
+>>Searching 29 files for "url_for("
+--should be 30
 
 
 
@@ -149,3 +156,19 @@ Email functionality :
      Environment Variables (Mac and Linux): https://youtu.be/5iWhQWVXosU
 
 
+----------------------------------------------------------------------
+
+  Find and replace in SublimeText3:
+
+     >>Find in Files
+
+          Find:<Phrase> url_for(
+
+          Where:
+               >>...
+               >>navigate to project folder
+
+          Replace:
+
+               >>Find
+               >>Double click highlighted text to open relevent file
