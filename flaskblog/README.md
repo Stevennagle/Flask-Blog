@@ -12,7 +12,7 @@ Based off of a tutorial by Corey Schafer (15 videos) :
      8) https://youtu.be/u0oDDZrDz9U -- Complete
      9) https://youtu.be/PSWf2TjTGNY -- Complete
      10)https://youtu.be/vutyTx7IaAI -- Complete
-     11)https://youtu.be/Wfx4YBzg16s -- 22min : updated all routes in "url_for("
+     11)https://youtu.be/Wfx4YBzg16s -- 27:30min : env var setup
 ----------------------------------------------------------------------
 
 
@@ -172,3 +172,12 @@ Email functionality :
 
                >>Find
                >>Double click highlighted text to open relevent file
+
+----------------------------------------------------------------------
+
+Vid 11 -> 27:30min : env var setup
+     $subl ~/.bash_profile
+       add:
+          app.config['SECRET_KEY']='7cd18ff261d5dbe21f54af94fb3a78cc'
+          app.config['SQLALCHEMY_DATABASE_URI']='sqlite:///site.db'
+
