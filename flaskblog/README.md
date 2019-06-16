@@ -12,7 +12,7 @@ Based off of a tutorial by Corey Schafer (15 videos) :
      8) https://youtu.be/u0oDDZrDz9U -- Complete
      9) https://youtu.be/PSWf2TjTGNY -- Complete
      10)https://youtu.be/vutyTx7IaAI -- Complete
-     11)https://youtu.be/Wfx4YBzg16s -- 27:30min : env var setup
+     11)https://youtu.be/Wfx4YBzg16s -- 35min
 ----------------------------------------------------------------------
 
 
