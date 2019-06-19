@@ -1,6 +1,6 @@
 # Flask-Blog
 
-Based off of a tutorial by Corey Schafer (15 videos) :
+Based off of a tutorial by Corey Schafer (12 videos; 3 optional) :
 
      1) https://youtu.be/MwZwr5Tvyxo -- Complete
      2) https://youtu.be/QnDWIZuWYW0 -- Complete
@@ -13,7 +13,11 @@ Based off of a tutorial by Corey Schafer (15 videos) :
      9) https://youtu.be/PSWf2TjTGNY -- Complete
      10)https://youtu.be/vutyTx7IaAI -- Complete
      11)https://youtu.be/Wfx4YBzg16s -- Complete
-     12)https://youtu.be/uVNfQDohYNI -- 9min
+     12)https://youtu.be/uVNfQDohYNI -- Complete
+
+     13)https://youtu.be/goToXTC96Co --
+          Deploy to a Linux Server
+
 ----------------------------------------------------------------------
 
 
@@ -24,14 +28,11 @@ Issues, Video 9:
 2) Email secure login info needs to be configured.
 
 
-
 Issues, Video 11; 20:30min:
 
 
 >>Searching 29 files for "url_for("
 --should be 30
-
-
 
 
 ----------------------------------------------------------------------
@@ -75,8 +76,6 @@ CLI
      >>> from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
 
      $ pip install flask-mail
-
-
 
 
 
@@ -130,7 +129,6 @@ Hashing Passwords :
      >>> bcrypt.check_password_hash(hashed_pw, 'testing')
 
 
-
 ----------------------------------------------------------------------
 
 Dependencies :
@@ -181,4 +179,3 @@ Vid 11 -> 27:30min : env var setup
        add:
           app.config['SECRET_KEY']='7cd18ff261d5dbe21f54af94fb3a78cc'
           app.config['SQLALCHEMY_DATABASE_URI']='sqlite:///site.db'
-
