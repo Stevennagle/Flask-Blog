@@ -1,6 +1,8 @@
 # Flask-Blog
 
 Based off of a tutorial by Corey Schafer (12 videos; 3 optional) :
+     https://www.youtube.com/playlist?list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH
+
 
      1) https://youtu.be/MwZwr5Tvyxo -- Complete
      2) https://youtu.be/QnDWIZuWYW0 -- Complete
@@ -17,6 +19,12 @@ Based off of a tutorial by Corey Schafer (12 videos; 3 optional) :
 
      13)https://youtu.be/goToXTC96Co --
           Deploy to a Linux Server
+
+     14)https://youtu.be/LUFn-QVcmB8 --
+          Adding a domain name
+
+     15)https://youtu.be/Gdys9qPjuKs --
+          Enable HTTPS with a free SSL/TLS Certificate using Let's Encrypt
 
 ----------------------------------------------------------------------
 
